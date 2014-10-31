@@ -1,5 +1,8 @@
 age = rand(110).to_s
 puts 'Age is ' + age
+
+# when I run this in the terminal, I get an error
+
 if age <= 1
   puts 'baby'
 elsif age < 10 && age > 1
