@@ -1,5 +1,5 @@
-age = rand(110).to_s
-puts 'Age is ' + age
+age = rand(110)
+puts 'Age is ' + age.to_s
 if age <= 1
   puts 'baby'
 elsif age < 10 && age > 1
